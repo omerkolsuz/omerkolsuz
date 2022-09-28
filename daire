@@ -1,0 +1,15 @@
+import java.util.*;
+public class daire{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    double pi = 3.14, alan;
+    int r, a;
+    System.out.print("Dairenin yaricapini giriniz : ");
+    r = input.nextInt();
+    System.out.print("Dairenin merkez acisini giriniz : ");
+    a = input.nextInt();
+    alan = ( pi * ( r * r ) * a ) / 360 ;
+    System.out.println("Daire Diliminin Alanı : " + alan + " metrekaredir");
+
+  }
+}
