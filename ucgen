@@ -1,0 +1,16 @@
+import java.util.*;
+public class ucgen{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    int a, b, c;
+    System.out.print("1. kenar degerini giriniz :" );
+    a = input.nextInt();
+    System.out.print("2. kenar degerini giriniz :" );
+    b = input.nextInt();
+    System.out.print("3. kenar degerini giriniz :" );
+    c = input.nextInt();
+    int alan = (a+b+c) / 2;
+    System.out.println("Ucgenin alani :" + alan + " metrekaredir");
+
+  }
+}
