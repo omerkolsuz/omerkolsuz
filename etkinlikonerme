@@ -1,0 +1,20 @@
+import java.util.*;
+ public class etkinlikonerme {
+   public static void main(String[] args){
+     Scanner input = new Scanner(System.in);
+     int heat;
+     System.out.print("Sicaklik giriniz: ");
+     heat = input.nextInt();
+     if(heat<5){
+       System.out.println("Hava kayak yapmak icin uygun! ");
+
+     }if(heat>=5 && heat<=15){
+       System.out.println("Hava sinema icin uygun! ");
+     }if(heat>=15 && heat<=25){
+       System.out.println("Hava piknik icin uygun! ");
+     }if(heat>25){
+       System.out.println("Hava yuzme icin uygun");
+     }
+
+}
+}
