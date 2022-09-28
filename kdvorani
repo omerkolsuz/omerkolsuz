@@ -1,0 +1,27 @@
+import java.util.*;
+  public class kdvorani{
+    public static void main (String[] args){
+      Scanner input = new Scanner(System.in);
+      System.out.print("Ucret tutarini giriniz :  ");
+      double tutar;
+      double kdv = 0.18;
+      tutar = input.nextDouble();
+      double total = tutar*kdv;
+      double kdvtotal = total+tutar;
+      double kdv2 = 0.10;
+      double total1 = tutar*kdv2;
+      double kdvtotal1 = total1+tutar;
+
+      if(tutar<1000) {
+      System.out.println("Kdvsiz tutar " + tutar);
+      System.out.println("Kdv tutari: " + total);
+      System.out.println("Toplam tutar: " + kdvtotal);
+    }
+      else{
+      System.out.println("Kdvsiz tutar " + tutar);
+      System.out.println("Kdv tutari: " + total1);
+      System.out.println("Toplam tutar: " + kdvtotal1);
+    }
+
+    }
+  }
