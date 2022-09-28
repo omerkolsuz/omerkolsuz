@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class kgindex {
+    public static void main(String[] args) {
+        double kg , metre , index ;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Vucut kitle indeksi hesaplama ");
+        System.out.print("Boyunuzu metre cinsinden giriniz : ");
+        metre = input.nextDouble();
+        System.out.print("Kilonuzu giriniz : ");
+        kg = input.nextDouble();
+        index = kg / ( metre * metre ) ;
+        System.out.print("Vucut kitle indeksiniz : " + index);
+    }
+}
